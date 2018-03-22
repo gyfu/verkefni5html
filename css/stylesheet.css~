@@ -48,6 +48,9 @@ html {
 	text-decoration: none;
 	color: white;
 }
+.index-nav a:hover{
+	font-weight: bold;
+}
 .adal {
 	background: linear-gradient(to bottom right, blue, #ADD8E6);
 	background-color: #e6bbad;
@@ -68,7 +71,7 @@ html {
 	background: rgba(360, 360, 360, 0.5)
 }
 .foot-main {
-	padding: 1em
+	padding: 1em;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
@@ -77,4 +80,7 @@ html {
 }
 .foot-main a {
 	color: white;
+}
+.foot-main a:hover{
+	font-weight: bold;
 }

@@ -48,6 +48,9 @@ html {
 	text-decoration: none;
 	color: white;
 }
+.index-nav a:hover{
+	font-weight: bold;
+}
 .adal {
 	background: linear-gradient(to bottom right, blue, #ADD8E6);
 	background-color: #e6bbad;
@@ -67,6 +70,12 @@ html {
 	color: white;
 	background: rgba(360, 360, 360, 0.5)
 }
+.adal-efni a {
+	color: white;
+}
+.adal-efni a:hover{
+	font-weight: bold;
+}
 .foot-main {
 	padding: 1em;
 	display: grid;
@@ -77,4 +86,7 @@ html {
 }
 .foot-main a {
 	color: white;
+}
+.foot-main a:hover{
+	font-weight: bold;
 }

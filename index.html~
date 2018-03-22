@@ -53,13 +53,23 @@
           <li><a href="http://tsuts.tskoli.is/2t/2111002060/verk2/">Verkefni 2</a></li>
           <li><a href="ftp://tsuts.tskoli.is/verk4/index.html">Verkefni 4</a></li>
           <li><a href="">Verkefni 5</a></li>
+          <li><a href="">Verkefni 5.2</a></li>
         </ul>
       </nav>
       <nav>
         <h4>Ytri tenglar <em>(absolute links)</em></h4>
         <ul>
           <li>  <!-- Absolute links "target _blank" opnar nýjan glugga í vafranum -->
-            <a href="http://learn.shayhowe.com/" target="_blank" title="kennsluvefur">Shayhowe.com</a>      
+            <a href="http://learn.shayhowe.com/" target="_blank" title="kennsluvefur">Shayhowe.com</a>
+          </li>  
+          <li>
+            <a href="http://www.color-hex.com/" target="_blank" title="lita síða">color-hex.com</a>
+          </li>  
+          <li>
+            <a href="https://www.w3schools.com/" target="_blank" title="kennsluvefur">w3schools.com</a>
+          </li>  
+          <li>
+            <a href="https://nam.inna.is/" target="_blank" title="kennsluvefur menntaskólanna">inna.is</a>
           </li>  
       </nav>
     </footer>
