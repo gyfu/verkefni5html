@@ -1,7 +1,80 @@
-.index-body {
-
+html {
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #ADD8E6;
+	color: white;
 }
-
-.sida2-body {
-	background-color: green;
+.index-header {
+	background-color: #ADD8E6;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 0.5fr;
+}
+.index-title {
+	color: white;
+	text-align: center;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.index-nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.index-nav h3{
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	color: white;
+}
+.index-nav nav {
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	text-align: center;
+}
+.index-nav a {
+	border-bottom: 1px solid white;
+	text-decoration: none;
+	color: white;
+}
+.adal {
+	background: linear-gradient(to bottom right, blue, #ADD8E6);
+	background-color: #e6bbad;
+	color:white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.adal-efni {
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+.adal-efni blockquote {
+	color: white;
+	background: rgba(360, 360, 360, 0.5)
+}
+.foot-main {
+	padding: 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	color: white;
+	background-color: #ADD8E6;	
+}
+.foot-main a {
+	color: white;
 }
