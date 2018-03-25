@@ -1,10 +1,10 @@
 html {
 	font-family: "Lucida Console", Monaco, monospace;
-	background-color: #ADD8E6;
+	background-color: #4c7b95;
 	color: white;
 }
 .index-header {
-	background-color: #ADD8E6;
+	background-color: #4c7b95;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 0.5fr;
@@ -51,10 +51,53 @@ html {
 .index-nav a:hover{
 	font-weight: bold;
 }
+.second-nav {
+	margin-left: 6.25%;
+	margin-right: 6.25%;
+	width: 87.5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	text-align: center;
+	font-size: 1em;
+}
+.second-nav a{
+	border: 1px solid white;
+}
+.laekni {
+	background: linear-gradient(to bottom right, orange, red);
+	color: white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.oskir {
+	background-color: pink;
+	color: black;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.adam {
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+}
+.alnaemi {
+	color: white;
+	background-color: #376273;
+}
+.gef {
+	background-color: #e6bbad;
+	color: black;
+}
+.kvedja {
+	background: linear-gradient(to top, purple, blue);
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+}
 .adal {
 	background: linear-gradient(to bottom right, blue, #ADD8E6);
-	background-color: #e6bbad;
-	color:white;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -67,7 +110,7 @@ html {
 	grid-row-end: 4;
 }
 .adal-efni blockquote {
-	color: white;
+	color: black;
 	background: rgba(360, 360, 360, 0.5)
 }
 .adal-efni a {
@@ -76,17 +119,109 @@ html {
 .adal-efni a:hover{
 	font-weight: bold;
 }
+.adal-2 {
+	background: linear-gradient(to bottom left, orange, red);
+	color:white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.adal-3 {
+	background-color: pink;
+	color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.adal-3 div {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+.adal-4 {
+	font-weight: bold;
+	background-color: purple;
+	color:white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.adal-4 div {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+.adal-5 {
+	background-color: #376273;
+	color:white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.adal-5 div {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+.adal-6 {
+	background: linear-gradient(to top, purple, blue);
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.adal-6 div {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+.adal-7 {
+	background-color: #e6bbad;
+	color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.adal-7 div {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
 .foot-main {
 	padding: 1em;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	color: white;
-	background-color: #ADD8E6;	
+	background-color: #4c7b95;	
 }
 .foot-main a {
 	color: white;
 }
 .foot-main a:hover{
 	font-weight: bold;
+}
+.breytanlegur-h3 {
+	font-weight: bold;
+	font-size: 2em;
+}
+.efst {
+	margin: 0.5em;
+	font-weight: bold;
+	font-size: 5em;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #4c7b95;
+	border-radius: 2em;
 }
